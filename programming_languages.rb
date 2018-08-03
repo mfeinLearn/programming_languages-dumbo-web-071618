@@ -8,7 +8,8 @@ def reformat_languages(languages)
       new_hash[:ruby] = { :type => "interpreted", :style => [:oo] }
       new_hash[:javascript] = { :type => "interpreted", :style => [:oo, :functional] }
       new_hash[:python] = { :type => "interpreted", :style => [:oo] }
-      new_hash[:java] = 
+      new_hash[:java] = { :type => "compiled", :style => [:oo] }
+      
         binding.pry
   end
   new_hash
