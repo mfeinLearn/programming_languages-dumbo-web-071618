@@ -5,4 +5,5 @@ def reformat_languages(languages)
     puts "#{key}-----"
     puts array
   end
+  new_hash
 end
