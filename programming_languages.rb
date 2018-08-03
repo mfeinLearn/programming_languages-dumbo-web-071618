@@ -5,7 +5,7 @@ def reformat_languages(languages)
   new_hash = {}
     languages.each do |key, array|
       #binding.pry
-      new_hash[:ruby] = {second_level_key: "second level value", }
+      new_hash[:ruby] = { :type => "interpreted", :style => [:oo] }
         binding.pry
   end
   new_hash
