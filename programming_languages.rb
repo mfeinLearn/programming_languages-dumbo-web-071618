@@ -6,6 +6,7 @@ def reformat_languages(languages)
     languages.each do |key, array|
       #binding.pry
       new_hash[:ruby] = { :type => "interpreted", :style => [:oo] }
+      new_hash[:javascript] = 
         binding.pry
   end
   new_hash
